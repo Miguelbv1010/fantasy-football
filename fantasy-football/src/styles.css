@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: #0f0532;
+  background-image: url('https://images.unsplash.com/photo-1601333734286-825b4efc8f0d?auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(15, 5, 50, 0.85); /* Fondo semitransparente */
+  border-radius: 20px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  max-width: 300px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+button.login {
+  background-color: #d95b84;
+}
+
+button.signup {
+  background-color: #38784f;
+}
+
+.link-button {
+  background-color: #38784f;
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
